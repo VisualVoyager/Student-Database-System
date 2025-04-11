@@ -50,7 +50,7 @@ class student :
          if not self.__is_enrolled:
             print(f"student{self.__student_id}is not currently enrolled")
 
-         else:
+   else:
             self.__is_enrolled = False
             print(f"student{self.__student_id}has been dropped")    
             
